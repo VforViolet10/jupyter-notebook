@@ -10,8 +10,8 @@ writepen=csv.writer(fw)
 data=['age','sex','cp','trtbps','chol','fbs','restecg','thalachh','exng','oldpeak','slp','caa','thall']
 writepen.writerow(data)
 while True:
-    age=int(input("Enter your age"))
-    sex=int(input("Enter your sex(female=0/male=1)?"))
+    age=int(input("Enter your age: "))
+    sex=int(input("Enter your sex(female=0/male=1): "))
     cp=int(input())
     trtbps=int(input())
     chol=int(input())
